@@ -14,7 +14,7 @@ public class QuadEquation
         Quadratic(a, b, c);
     }    
 
-    static void Quadratic(int a, int b, int c)
+    static void quadratic(int a, int b, int c)
     {
         int d = (int)Math.pow(b, 2) - (4 * a * c);
         
