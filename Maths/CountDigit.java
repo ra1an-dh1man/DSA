@@ -11,11 +11,11 @@ public class CountDigit
         int n = scn.nextInt();
         scn.close();
 
-        System.out.println(CountTwo(n));
+        System.out.println(countTwo(n));
         
     }
 
-    static int CountTwo(int n){
+    static int countTwo(int n){
     
     int count = 0;
 
