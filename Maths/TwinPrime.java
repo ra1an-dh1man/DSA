@@ -8,13 +8,13 @@ public class TwinPrime
 
         for(int i = 0 ; i < 100 ; i++)
         {
-            if(Twin(i) && Twin(i + 2))
+            if(twin(i) && twin(i + 2))
                 System.out.printf("(%d, %d)\n", i, i + 2);
         }
         
     }   
     
-    static boolean Twin(long n)
+    static boolean twin(long n)
     {
         if(n < 2)
             return false;
