@@ -17,7 +17,7 @@ public class MiddlePoint
         int c = scn.nextInt();
         scn.close();
 
-        System.out.println(MidPoint(a, b, c));
+        System.out.println(midPoint(a, b, c));
     }   
 
     static boolean midPoint(int a, int b, int c)
