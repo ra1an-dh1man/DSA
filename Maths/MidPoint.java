@@ -20,7 +20,7 @@ public class MiddlePoint
         System.out.println(MidPoint(a, b, c));
     }   
 
-    static boolean MidPoint(int a, int b, int c)
+    static boolean midPoint(int a, int b, int c)
     {
         if((b - a) == (c - b))
             return true;
